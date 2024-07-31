@@ -19,4 +19,10 @@ This project analyzes bikeshare data from three major cities in the United State
 This project was inspired by the Udacity Data Analyst Nanodegree program. Special thanks to the following resources:
 - [Udacity GitHub Repository](https://github.com/udacity/pdsnd_github)
 - Various blog posts and documentation on Pandas and Python.
+### Installation
+To set up this project on your local machine, follow these steps:
+1. Clone the repository: `git clone https://github.com/joud-lab/pdsnd_github.git`
+2. Navigate to the project directory: `cd myrepo`
+3. Run the bikeshare script: `python bikeshare.py`
+
 
