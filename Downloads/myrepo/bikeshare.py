@@ -2,12 +2,12 @@ import pandas as pd
 import numpy as np
 def load_data(city):
 
-    CITY_DATA = {
+    CITY_info = {
         'chicago': '/Users/jouda/Downloads/chicago.csv',
         'new york city': '/Users/jouda/Downloads/new_york_city.csv',
         'washington': '/Users/jouda/Downloads/washington.csv'
     }
-    df = pd.read_csv(CITY_DATA[city.lower()])
+    df = pd.read_csv(CITY_info[city.lower()])
     df['Start Time'] = pd.to_datetime(df['Start Time'])
     df['month'] = df['Start Time'].dt.month
     df['day_of_week'] = df['Start Time'].dt.day_name()
