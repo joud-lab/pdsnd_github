@@ -1,3 +1,8 @@
+"""
+This module provides a command-line interface for analyzing
+bikeshare data for Chicago, New York City, and Washington.
+"""
+
 import pandas as pd
 import numpy as np
 def load_data(city):
